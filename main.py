@@ -22,6 +22,9 @@ cloudinary.config(
 # Load OpenAI Whisper
 model = whisper.load_model("base")
 
+@app.route('/')
+def home():
+    return 'Hello, World!'
 
 @app.route("/transcribe", methods=["POST"])
 @cross_origin()
