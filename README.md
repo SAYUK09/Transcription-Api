@@ -57,6 +57,11 @@ The API generates subtitles for audio clips.
 
 3. The API will respond with the transcription result, and you can use the generated subtitles for further processing.
 
+### Usefull Links
+- [Audiogram](https://github.com/SAYUK09/Audiogram)
+- [Audiogram Nodejs BE](https://github.com/SAYUK09/Audiogram-Backend)
+
+
 
 ## Acknowledgments
 
