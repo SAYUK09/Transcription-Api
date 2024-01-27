@@ -32,21 +32,26 @@ The API generates subtitles for audio clips.
 
 ### Usage
 
-1. Run the API server:
+Run the API server:
 
-    ```bash
-    python main.py
-    ```
+```bash
+python main.py
+```
+The API should be up and running now.
 
-2. Make a POST request to the transcription endpoint:
+### CLI Usage
 
-    ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{"audio_url": "https://example.com/audio.mp3"}' http://localhost:5000/transcribe
-    ```
+*Alternately if you want to use it via CLI:*
 
-    Replace the `audio_url` with the URL of the audio file you want to transcribe.
+Make a POST request to the transcription endpoint:
 
-3. The API will respond with the transcription result, and you can use the generated subtitles for further processing.
+ ```bash
+ curl -X POST -H "Content-Type: application/json" -d '{"audio_url": "https://example.com/audio.mp3"}' http://localhost:5000/transcribe
+  ```
+
+Replace the `audio_url` with the URL of the audio file you want to transcribe.
+
+The API will respond with a link to SRT File.
 
 ### Usefull Links
 - [Audiogram](https://github.com/SAYUK09/Audiogram)
