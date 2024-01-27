@@ -26,11 +26,6 @@ model = whisper.load_model("base")
 def home():
     return 'Hello, World!'
 
-@app.route('/')
-def home():
-    return 'Hello, World!'
-
-
 @app.route("/transcribe", methods=["POST"])
 @cross_origin()
 def transcribe_audio():

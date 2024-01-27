@@ -21,8 +21,7 @@ The API generates subtitles for audio clips.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/audiogram-transcription-api.git
-    cd audiogram-transcription-api
+    git clone https://github.com/SAYUK09/Transcription-Api.git
     ```
 
 2. Install dependencies:
@@ -31,20 +30,12 @@ The API generates subtitles for audio clips.
     pip install -r requirements.txt
     ```
 
-3. Set up OPENAI API key:
-
-    Obtain your OPENAI API key from [OPENAI platform](https://platform.openai.com/) and set it as an environment variable:
-
-    ```bash
-    export OPENAI_API_KEY=your-api-key
-    ```
-
 ### Usage
 
 1. Run the API server:
 
     ```bash
-    python api_server.py
+    python main.py
     ```
 
 2. Make a POST request to the transcription endpoint:
